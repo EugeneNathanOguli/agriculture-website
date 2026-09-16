@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | AGRICULTURE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://jsdelivr.net">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/agric.jpg" alt="logo">
+                <span>AGRICULTURE</span>
+            </div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a class="active" href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div>
+                <a href="contact.html" class="btn-talk">TALK TO US</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Contact Page Hero Section -->
+        <section class="hero inner-hero">
+            <div class="info">
+                <h1>Connect With Our Experts</h1>
+                <p>Have questions about precision sensory tools, field instrumentation, or logistics management? Drop us a message below.</p>
+            </div>
+            <div class="culture">
+                <img src="images/agric.jpg" alt="Contact Agriculture">
+            </div>
+        </section>
+
+        <!-- Form and Contact Details Panel -->
+        <section class="container my-5">
+            <div class="row g-5">
+                
+                <div class="col-lg-7">
+                    <div class="p-4 border rounded shadow-sm bg-white">
+                        <h2 class="mb-4">Send a Message</h2>
+                        <form id="contactForm" action="#" method="POST">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="fullName" class="form-label">Full Name</label>
+                                    <input type="text" class="form-control" id="fullName" required placeholder="John Doe">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="emailAddr" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" id="emailAddr" required placeholder="name@example.com">
+                                </div>
+                                <div class="col-12">
+                                    <label for="subjectLine" class="form-label">Subject</label>
+                                    <input type="text" class="form-control" id="subjectLine" required placeholder="Inquiry about Smart Irrigation systems">
+                                </div>
+                                <div class="col-12">
+                                    <label for="messageBody" class="form-label">Your Message</label>
+                                    <textarea class="form-control" id="messageBody" rows="5" required placeholder="Tell us about your cultivation challenges..."></textarea>
+                                </div>
+                                <div class="col-12 mt-4">
+                                    <button type="submit" class="btn btn-success w-100 py-2 btn-cta-form">SUBMIT MESSAGE</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                
+                <div class="col-lg-5 d-flex flex-column justify-content-between">
+                    <div class="services p-0 m-0 w-100" id="contact-info">
+                        <div class="grid d-flex flex-column gap-3 w-100">
+                            
+                            <div class="card p-3 m-0" data-channel="hq">
+                                <h3>Corporate Headquarters</h3>
+                            </div>
+
+                            <div class="card p-3 m-0" data-channel="direct">
+                                <h3>Direct Lines</h>
+                            </div>
+
+                            <div class="card p-3 m-0" data-channel="hours">
+                                <h3>Operational Hours</h3>
+                                <p class="mb-1">Monday – Friday: 8:00 AM – 6:00 PM</p>
+                                <p class="mb-0">Saturday: 9:00 AM – 1:00 PM (Emergency Desk Only)</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Embedded Map Location Area -->
+        <section class="w-100 mb-n5">
+            <div class="ratio ratio-21x9 bg-light border-top" style="min-height: 350px;">
+                <!-- Replace src link below with an actual Google Maps embed link if required -->
+                <iframe src="https://google.com" 
+                        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer class="mt-0">
+        <p>&copy; 2026 AGRICULTURE. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
