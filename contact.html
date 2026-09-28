@@ -100,18 +100,65 @@
                     </div>
                 </div>
             </div>
-        </section>
 
-        <!-- Embedded Map Location Area -->
-        <section class="w-100 mb-n5">
-            <div class="ratio ratio-21x9 bg-light border-top" style="min-height: 350px;">
-                <!-- Replace src link below with an actual Google Maps embed link if required -->
-                <iframe src="https://google.com" 
-                        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+        </section>
+        <section>
+        
+
+
+        
+            <div class="row g-5">
+                <div class="col-lg-5">
+                    <h2 class="fw-bold">Get in touch</h2>
+                    <p class="text-muted">Send us a message and our team will follow up.</p>
+
+                    <div class="mt-4">
+                        <h3 class="h6 fw-bold">Phone</h3>
+                        <p class="text-muted">Add your business phone number</p>
+
+                        <h3 class="h6 fw-bold">Email</h3>
+                        <p class="text-muted">Add your business email address</p>
+
+                        <h3 class="h6 fw-bold">Location</h3>
+                        <p class="text-muted">Add your business location</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-7">
+                    <form id="contact-form" class="p-4 p-md-5 bg-light rounded shadow-sm">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Your name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" class="form-control" id="subject" name="subject" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-success rounded-pill px-4">Send Message</button>
+                        <p class="small text-muted mt-3 mb-0">
+                            
+                        </p>
+                    </form>
+                </div>
             </div>
         </section>
-    </main>
 
+    </main>
     <footer class="mt-0">
         <p>&copy; 2026 AGRICULTURE. All rights reserved.</p>
     </footer>
